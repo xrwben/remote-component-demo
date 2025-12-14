@@ -1,0 +1,22 @@
+{
+  "name": "vite-lib",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:shadow": "vite build -c vite.config.shadow.js",
+    "build:umd": "vite build -c vite.config.umd.js",
+    "build:es": "vite build -c vite.config.es.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.24"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "rollup-plugin-import-to-const": "^0.1.6",
+    "vite": "^7.2.2",
+    "vite-plugin-css-injected-by-js": "^3.5.2"
+  }
+}

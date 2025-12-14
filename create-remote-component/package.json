@@ -1,0 +1,27 @@
+{
+  "name": "create-remote-component",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.config.dev.ts",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "build:component": "node scripts/build-component.ts"
+  },
+  "dependencies": {
+    "vue": "^3.5.24"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "less": "^4.4.2",
+    "postcss-px-to-viewport-8-plugin": "^1.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vue-tsc": "^3.1.4"
+  }
+}
