@@ -21,8 +21,9 @@
     :content="item.content" 
     :link="item.link">
   </custom-card-vue> -->
-  <custom-element-card></custom-element-card>
   <!-- <button @click="handleClick">点击加载卡片</button> -->
+  <!-- <custom-element-card></custom-element-card> -->
+  <im-card-create-app></im-card-create-app>
 </template>
 
 <script setup>
@@ -31,7 +32,8 @@ import { ref } from 'vue'
 // import CustomCardEs from './custom-card-es.vue'
 // import CustomCardUmd from './custom-card-umd.vue'
 // import CustomCardVue from './custom-card-vue.vue'
-import CustomElementCard from './custom-element-card.vue' 
+// import CustomElementCard from './custom-element-card.vue' 
+import ImCardCreateApp from './im-card-createapp.vue'
 
 const list = ref([
   {

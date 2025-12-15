@@ -47,7 +47,7 @@ const closeCard = () => {
   padding: 0;
 }
 h3 {
-  font-size: 0.5rem;
+  font-size: 1rem;
 }
 .layer {
   position: fixed;
